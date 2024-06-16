@@ -1,0 +1,4 @@
+- name: RestartApache 
+  docker_container:
+    name: apache
+    state: started
